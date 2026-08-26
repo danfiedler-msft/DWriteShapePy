@@ -13,7 +13,7 @@ on:
 jobs:
   build-n-publish:
     # The type of runner that the job will run on
-    runs-on: windows-2019
+    runs-on: windows-2022
     
     env:
       CIBW_BUILD: cp39-win_amd64 cp310-win_amd64 cp311-win_amd64 cp312-win_amd64 cp313-win_amd64
